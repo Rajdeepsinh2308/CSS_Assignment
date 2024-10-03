@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .one{
+            height: 600px;
+            width: auto;
+            display: flex;
+            position: relative;
+
+
+        }
+        .text{
+            height: 729px;
+            width: 50%;
+            background-color: rgb(28, 27, 27);
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            gap: 50px;
+            padding-top: 150px;
+            padding-right: 45px;
+
+        }
+        .text1{
+            color: white;
+            font-size: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .text2-1{
+            color: orangered;
+            font-size: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: end;
+        }
+        .text2-2{
+            color: white;
+            font-size: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: end;
+        }
+        .img{
+            height: 729px;
+            width: 50%;
+            background-image: url(./ImageCSS/indian-iphone-6-plus-wallpaper-preview.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .icon{
+            display: flex;
+            gap: 52px;
+            flex-direction: column;
+            position: absolute;
+            top: 32%;
+            left: 48%;
+        }
+        .icon1{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: white;
+            color: orangered;
+        }
+        .fa-solid{
+            color: orangered;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="text">
+            <div class="text1">OUR SERVICES</div>
+            <div class="text2">
+                <div class="text2-1">WEB DESIGN</div>
+                <div class="text2-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, temporibus at. Voluptatibus doloribus <br> veniam unde ducimus recusandae vitae reprehenderit soluta.</div>
+            </div>
+            <div class="text2">
+                <div class="text2-1">PRINT DESIGN</div>
+                <div class="text2-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, temporibus at. Voluptatibus doloribus <br> veniam unde ducimus recusandae vitae reprehenderit soluta.</div>
+            </div>
+            <div class="text2">
+                <div class="text2-1">PHOTOGRAPHY</div>
+                <div class="text2-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, temporibus at. Voluptatibus doloribus <br> veniam unde ducimus recusandae vitae reprehenderit soluta.</div>
+            </div>
+
+
+        </div>
+        <div class="img"></div>
+    </div>
+    <div class="two">
+        <div class="icon">
+            <div class="icon1"><i class="fa-solid fa-tv" ></i></div>
+            <div class="icon1"><i class="fa-solid fa-layer-group"></i></div>
+            <div class="icon1"><i class="fa-solid fa-camera"></i></div>
+        </div>
+    </div>
+</body>
+</html>

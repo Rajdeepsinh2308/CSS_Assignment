@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .one {
+            height: 900px;
+            width: auto;
+            background-image: url(./ImageCSS/153111-microsoft_surface-microsoft_surface_studio-hintergrundbilder_surface-surface-surface_studio-2048x1366.jpg);
+            clip-path: polygon(100% 0, 100% 58%, 50% 80%, 0 57%, 0 0);
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding-top: 20px;
+        }
+
+        .logo {
+            display: flex;
+            border: 2px solid white;
+        }
+
+        .logo1 {
+            height: 35px;
+            width: 30px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 27px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .logo2 {
+            height: 35px;
+            width: 70px;
+            text-align: center;
+            color: white;
+            font-size: 27px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        ul {
+            display: flex;
+            gap: 40px;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .red {
+            text-decoration: underline;
+            color: orangered;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 80px;
+        }
+
+        .text1 {
+            color: white;
+            font-size: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .text2 {
+            color: white;
+            font-size: 40px;
+            padding-top: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .line1 {
+            display: flex;
+            gap: 10px;
+
+        }
+
+        .line1-1 {
+            color: white;
+            display: flex;
+        }
+
+        .dot {
+            color: orangered;
+        }
+
+        .text3 {
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .button {
+            padding-top: 30px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .button1 {
+            height: 35px;
+            width: 200px;
+            border: none;
+            border-radius: 4px;
+            background-color: orangered;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .button2 {
+            height: 35px;
+            width: 200px;
+            border: 2px solid white;
+            border-radius: 4px;
+            background-color: transparent;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .two {
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+        }
+        .box1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .box2-1 {
+            height: 50px;
+            width: 50px;
+            border: 2px solid orangered;
+            transform: rotate(45deg);
+        }
+        .fa-solid{
+            transform: rotate(135deg);
+            color: orangered;
+            display: flex;
+            justify-content: center;
+            margin-top: 18px;
+            
+        }
+
+        .box2-2 {
+            height: 50px;
+            width: 50px;
+            border: 2px solid rgb(148, 123, 59);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: orangered;
+        }
+        .text2-1{
+            display: flex;
+            padding-top: 20px;
+            color: orangered;
+        }
+        .text2-2{
+            padding-top: 20px;
+        }
+        .text2-3{
+            text-align: center;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="one">
+            <div class="nav">
+                <div class="logo">
+                    <div class="logo1">L</div>
+                    <div class="logo2">ogo</div>
+                </div>
+                <ul>
+                    <li><a class="red" href="">HOME</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">PORTFOLIO</a></li>
+                    <li><a href="">PRICING</a></li>
+                    <li><a href="">TEAM</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="text">
+                <div class="text1">Our Clients Are Our First Priority</div>
+                <div class="text2">WELCOME TO SKY</div>
+                <div class="line1">
+                    <div class="line1-1">_______</div>
+                    <div class="dot">.</div>
+                    <div class="line1-1">_______</div>
+                </div>
+                <div class="text3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, accusamus
+                    consectetur
+                    molestias <br> asperiores commodi blanditiis dolores aperiam quasi obcaecati. Praesentium atque
+                    optio,
+                    officiis earum, porro repellendus <br> accusantium odit voluptates pariatur impedit, harum quod
+                    excepturi magni reiciendis. Nulla doloribus corporis tenetur?</div>
+                <div class="button">
+                    <button class="button1">GET STARTED NOW</button>
+                    <button class="button2">LEARN MORE</button>
+                </div>
+                <div class="icon"></div>
+            </div>
+        </div>
+        <div class="two">
+            <div class="box1">
+                <div class="box2-1"><i class="fa-solid fa-infinity"></i></div>
+                <div class="text2-1">SLEEK DESIGN</div>
+                <div class="line2-1">_____</div>
+                <div class="text2-3">Lorem ipsum dolor sit amet <br> adipisicing elit. Harum moll<br>nobis doloribus
+                    rerum</div>
+            </div>
+            <div class="box1">
+                <div class="box2-2"><i class="fa-regular fa-heart"></i></div>
+                <div class="text2-2">CLEAN CODE</div>
+                <div class="line2-1">_____</div>
+                <div class="text2-3">Lorem ipsum dolor sit amet <br> adipisicing elit. Harum moll<br>nobis doloribus
+                    rerum</div>
+            </div>
+            <div class="box1">
+                <div class="box2-2"><i class="fa-regular fa-lightbulb"></i></div>
+                <div class="text2-2">CREATIVE IDEAS</div>
+                <div class="line2-1">_____</div>
+                <div class="text2-3">Lorem ipsum dolor sit amet <br> adipisicing elit. Harum moll<br>nobis doloribus
+                    rerum</div>
+            </div>
+            <div class="box1">
+                <div class="box2-2"><i class="fa-regular fa-comments"></i></div>
+                <div class="text2-2">FREE SUPPORT</div>
+                <div class="line2-1">_____</div>
+                <div class="text2-3">Lorem ipsum dolor sit amet <br> adipisicing elit. Harum moll<br>nobis doloribus
+                    rerum</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
